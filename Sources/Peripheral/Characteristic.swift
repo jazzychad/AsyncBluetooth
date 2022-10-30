@@ -8,7 +8,7 @@ import CoreBluetooth
 public struct Characteristic {
     let cbCharacteristic: CBCharacteristic
     
-    init(_ cbCharacteristic: CBCharacteristic) {
+    public init(_ cbCharacteristic: CBCharacteristic) {
         self.cbCharacteristic = cbCharacteristic
     }
     
